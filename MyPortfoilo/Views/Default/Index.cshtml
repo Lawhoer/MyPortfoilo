@@ -1,0 +1,252 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portföy</title>
+    <link rel="stylesheet" href="~/Portfoilo/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <div class="left-section">
+                <div class="profile-section">
+                    <div class="profile-photo">
+                        <img src="~/Portfoilo/res/picture/profil.png" alt="Profil Fotoğrafı">
+                    </div>
+                    <div class="profile-text">
+                        <h1 class="name">Eren Akıncı</h1>
+                        <p class="title">Bilgisayar Mühendisi</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/eren-akinci/" target="_blank" class="social-link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Lawhoer" target="_blank" class="social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:eren.akinci.dev@gmail.com" target="_blank" class="social-link">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="download-section">
+                        <button class="download-btn">Download CV</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="page-indicators">
+                    <a href="#profile" class="indicator active"></a>
+                    <a href="#about" class="indicator"></a>
+                    <a href="#projects" class="indicator"></a>
+                </div>
+
+                <section id="profile" class="profile-main-section">
+                    <!-- Ripple Effects -->
+                    <div class="ripple-container">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="center-drop"></div>
+
+                    <div class="profile-header">
+                        <div class="profile-text-main">
+                            <p class="hello-text initial">Hello</p>
+                            <h1 class="name-main">
+                                <span class="static-text">I am&nbsp;</span>
+                                <span class="dynamic-text" data-text1="Eren Akıncı" data-text2="A Developer"></span>
+                            </h1>
+                        </div>
+                    </div>
+
+                    <!-- Scroll Down Arrow -->
+                    <div class="scroll-arrow">
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about" class="about-main-section">
+                    <!-- Başlık div'i -->
+                    <div class="about-header">
+                        <h2 class="section-title">Hakkımda</h2>
+                        <div class="section-line"></div>
+                    </div>
+
+                    <!-- Ana içerik div'i -->
+                    <div class="about-main-content">
+                        <!-- Sol taraf: Hakkımda yazısı -->
+                        <div class="about-text-section">
+                            <p class="about-text">
+                                Yenilikçi projelere katkı sağlamak ve becerilerimi sürekli geliştirmek amacıyla çalışıyor, eleştirel bir zihniyet ve
+                                disiplinli çalışma ahlakına sahip olduğumu düşünüyorum. Etkili iletişime üst düzeyde öncelik verip teknoloji
+                                dünyasındaki yenilikleri yakından takip ederek yaratıcı çözümler üretmeye odaklanıyorum.
+                            </p>
+                        </div>
+
+                        <!-- Sağ taraf: Deneyim kısmı -->
+                        <div class="experience-section">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-content">
+                                        <div class="experience-period">2024 - Devam Ediyor</div>
+                                        <div class="experience-role">Yazılım Geliştirici</div>
+                                        <div class="experience-company">Freelance Projeler</div>
+                                        <div class="experience-description">
+                                            Web ve mobil uygulama geliştirme, yapay zeka projeleri ve teknoloji danışmanlığı.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-content">
+                                        <div class="experience-period">Haziran 2025 - Temmuz 2025</div>
+                                        <div class="experience-role">Stajyer</div>
+                                        <div class="experience-company">Üç Kare Bilişim</div>
+                                        <div class="experience-description">
+                                            E-Muhasefe Zirve yazılımı için teknik destek.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section id="projects" class="projects-main-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Projeler</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-card active">
+                                <div class="card-content">
+                                    <h3>TÜBİTAK Tarım Projesi</h3>
+                                    <p>Tarımda planlı üretim | Mobil Uygulama</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-card">
+                                <div class="card-content">
+                                    <h3>Türkçe Yardım Çağrısı Tespit Modeli</h3>
+                                    <p>NLP ile acil durum tespiti | Yapay Zeka Modeli</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-card">
+                                <div class="card-content">
+                                    <h3>Kısa Film Sitesi</h3>
+                                    <p>İnteraktif bir kısa film sitesi | Web Site</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-card">
+                                <div class="card-content">
+                                    <h3>Masaüstü Çeviri Uygulaması</h3>
+                                    <p>OCR ile çeviri uygulaması | Masaüstü Uygulaması</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-card">
+                                <div class="card-content">
+                                    <h3>Imdb-Inator Chrome Uzantısı</h3>
+                                    <p>Film bilgisi çeken browser uzantısı | Chrome Uzantısı</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-bottom">
+                        <div class="carousel-navigation">
+                            <button class="carousel-btn prev-btn">‹</button>
+                            <div class="carousel-info">
+                                <span class="current-slide">1</span> / <span class="total-slides">3</span>
+                            </div>
+                            <button class="carousel-btn next-btn">›</button>
+                        </div>
+                        <button class="carousel-btn dice-btn" title="Rastgele kart seç">
+                            <i class="fa-solid fa-dice"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project Overlay -->
+                    <div class="project-overlay">
+                        <button class="close-btn">✕</button>
+
+                        <div class="project-inner">
+                            <!-- Project Video Section -->
+                            <div class="project-video-section">
+                                <!-- Video Container -->
+                                <div class="video-container" style="display: none;">
+                                    <video autoplay muted loop class="video-background">
+                                        <source src="~/Portfoilo/res/vid/extention.mp4" type="video/mp4">
+                                    </video>
+                                    <video autoplay muted loop class="project-video">
+                                        <source src="~/Portfoilo/res/vid/extention.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+
+                                <!-- Slideshow Container -->
+                                <div class="project-image-slideshow" style="display: none;">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_1.png" class="slideshow-background">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_1.png" class="slideshow-image active">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_2.png" class="slideshow-image">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_3.png" class="slideshow-image">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_4.png" class="slideshow-image">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_5.png" class="slideshow-image">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_6.png" class="slideshow-image">
+                                    <img src="~/Portfoilo/res/picture/Tarim_mobil_7.png" class="slideshow-image">
+                                </div>
+
+                                <!-- BERT Image Container -->
+                                <div class="bert-image-container" style="display: none;">
+                                    <img src="~/Portfoilo/res/picture/bert_web.png" class="bert-background">
+                                    <img src="~/Portfoilo/res/picture/bert_web.png" class="bert-image">
+                                </div>
+                            </div>
+
+                            <!-- Project Content Section -->
+                            <div class="project-content-section">
+                                <div class="project-header">
+                                    <div class="project-title-row">
+                                        <h2 class="overlay-title"></h2>
+                                        <div class="project-year"></div>
+                                    </div>
+                                    <div class="project-technologies-section">
+                                        <span class="project-technologies-inline"></span>
+                                    </div>
+                                </div>
+
+                                <div class="project-description">
+                                    <ul class="project-features-list"></ul>
+                                </div>
+
+                                <div class="project-github-link">
+                                    <a href="#" class="project-link github-link" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                        GitHub'da Görüntüle
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Portfoilo/script.js"></script>
+</body>
+</html> 
